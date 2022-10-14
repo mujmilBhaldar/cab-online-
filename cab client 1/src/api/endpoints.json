@@ -1,0 +1,32 @@
+{
+  "serverURL": "http://127.0.0.1:9999",
+  "api": {
+    "users": {
+      "create": "/users",
+      "update": "/users/",
+      "delete": "/users/",
+      "getOne": "/users/",
+      "getAll": "/users"
+    },
+    "cabs": {
+      "create": "/cabs",
+      "update": "/cabs/",
+      "delete": "/cabs/",
+      "getOne": "/cabs/",
+      "getAll": "/cabs"
+    },
+    "customers": {
+      "create": "/customers",
+      "update": "/customers/",
+      "delete": "/customers/",
+      "getOne": "/customers/one",
+      "getAll": "/customers"
+    },
+    "auth": {
+      "userLogin": "/auth",
+      "validateToken": "/auth/validate-token",
+      "validateCustomer": "/auth/validate-customer/",
+      "passwordResetLink": "/auth/password-reset"
+    }
+  }
+}
